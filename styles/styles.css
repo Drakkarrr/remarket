@@ -13,6 +13,22 @@ a.nav-links {
     text-decoration: none;
 }
 
+button.buy-now {
+    background-color: #1962F2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in;
+}
+
+button.buy-now:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #3718c2;
+}
+
 
 @font-face {
     font-family: 'webflow-icons';
