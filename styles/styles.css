@@ -731,11 +731,11 @@ textarea.w-select {
 @media screen and (max-width:991px) {
 
     .logo-container {
-        height: 65px;
+        height: 65px !important;
     }
    img.logo {
-    width: auto;
-    height: 100%;
+    width: auto !important;
+    height: 100% !important;
    }
 
     .w-container {
@@ -807,16 +807,16 @@ textarea.w-select {
 
 @media screen and (max-width:767px) {
     .discount {
-        margin-top: 80px;
-        width:250px;
-        height: auto;
+        margin-top: 80px !important;
+        width:250px !important;
+        height: auto !important;
     }
     .logo-container {
-        height: 65px;
+        height: 65px !important;
     }
    img.logo {
-    width: auto;
-    height: 100%;
+    width: auto !important;
+    height: 100% !important;
    }
 
     .w-hidden-main {
@@ -894,19 +894,19 @@ textarea.w-select {
 
 @media screen and (max-width:479px) {
     .discount {
-        margin-top: 40px;
-        width:200px;
-        height: auto;
+        margin-top: 40px !important;
+        width:200px !important;
+        height: auto !important;
 
     }
 
     .logo-container {
-        height: 50px;
-        width: 10px;
+        height: 50px !important;
+        width: 10px !important;
     }
    img.logo {
-    width: auto;
-    height: 100%;
+    width: auto !important;
+    height: 100% !important;
    }
     .w-container {
         max-width: none
