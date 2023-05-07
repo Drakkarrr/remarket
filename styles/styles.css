@@ -6,7 +6,6 @@
 
 .logo-container {
     width: 100px;
-    /* display: none; */
 }
 
 a.nav-links {
@@ -730,6 +729,15 @@ textarea.w-select {
 }
 
 @media screen and (max-width:991px) {
+
+    .logo-container {
+        height: 65px;
+    }
+   img.logo {
+    width: auto;
+    height: 100%;
+   }
+
     .w-container {
         max-width: 728px
     }
@@ -798,6 +806,19 @@ textarea.w-select {
 }
 
 @media screen and (max-width:767px) {
+    .discount {
+        margin-top: 80px;
+        width:250px;
+        height: auto;
+    }
+    .logo-container {
+        height: 65px;
+    }
+   img.logo {
+    width: auto;
+    height: 100%;
+   }
+
     .w-hidden-main {
         display: inherit !important
     }
@@ -872,6 +893,21 @@ textarea.w-select {
 }
 
 @media screen and (max-width:479px) {
+    .discount {
+        margin-top: 40px;
+        width:200px;
+        height: auto;
+
+    }
+
+    .logo-container {
+        height: 50px;
+        width: 10px;
+    }
+   img.logo {
+    width: auto;
+    height: 100%;
+   }
     .w-container {
         max-width: none
     }
